@@ -127,3 +127,38 @@ def deleteAccount(num):
         pickle.dump(newlist, outfile)
         outfile.close()
         os.rename('newaccounts.data', 'accounts.data')
+        
+def modifyAccount(num):
+    file = pathlib.Path("accounts.data")
+    if file.exists ():
+        infile = open('accounts.data','rb')
+        oldlist = pickle.load(infile)
+        infile.close()
+        os.remove('accounts.data')
+        for item in oldlist :
+            if item.accNo == num :
+                item.name = input("Enter the account holder name : ")
+                item.type = input("Enter the account Type : ")
+                item.deposit = int(input("Enter the Amount : "))
+        
+        outfile = open('newaccounts.data','wb')
+        pickle.dump(oldlist, outfile)
+        outfile.close()
+        os.rename('newaccounts.data', 'accounts.data')
+   
+
+def writeAccountsFile(account) : 
+    
+    file = pathlib.Path("accounts.data")
+    if file.exists ():
+        infile = open('accounts.data','rb')
+        oldlist = pickle.load(infile)
+        oldlist.append(account)
+        infile.close()
+        os.remove('accounts.data')
+    else :
+        oldlist = [account]
+    outfile = open('newaccounts.data','wb')
+    pickle.dump(oldlist, outfile)
+    outfile.close()
+    os.rename('newaccounts.data', 'accounts.data')
