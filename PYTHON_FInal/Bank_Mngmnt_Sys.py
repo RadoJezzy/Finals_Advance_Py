@@ -7,7 +7,7 @@ class Account :
     def createAccount(self):
         self.accNo= int(input("Enter the account no : "))
         self.name = input("Enter the account holder name : ")
-        self.type = input("Ente the type of account [C/D] : ")
+        self.type = input("Enter the type of account [C/D] : ")
         self.deposit = int(input("Enter The Initial amount for current"))
         print("\n\n\nAccount Created")
     
@@ -171,7 +171,7 @@ while ch != 8:
     print("\t1. NEW ACCOUNT")
     print("\t2. DEPOSIT AMOUNT")
     print("\t3. WITHDRAW AMOUNT")
-    print("\t4. BALANCE ENQUIRY")
+    print("\t4. BALANCE INQUIRY")
     print("\t5. ALL ACCOUNT HOLDER LIST")
     print("\t6. CLOSE AN ACCOUNT")
     print("\t7. MODIFY AN ACCOUNT")
