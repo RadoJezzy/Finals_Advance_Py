@@ -15,7 +15,9 @@ The program also uses the os and pathlib libraries to manipulate files, and the 
 If you have any questions or issues with the program, please open an issue on the GitHub repository or contact the author for assistance.
 
 Collaborators:
-Rado, Jessmark
-Ilagan, John Densel 
-Almarez, Mark Ryan
-Levita, Mark Jerome
+-Rado, Jessmark
+-Ilagan, John Densel 
+-Almarez, Mark Ryan
+-Levita, Mark Jerome
+
+The video presentation is provided in the attached link: https://drive.google.com/drive/folders/1iuG3e8KZDi0cG38BZz_9Xl94aTgmQCam
