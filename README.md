@@ -21,3 +21,18 @@ Collaborators:
 -Levita, Mark Jerome
 
 
+# Self-assessment: :bar_chart:
+Metric | 4 | 3 | 2 | 1
+| :---: | :---: | :---: | :---: | :---:
+Code Reusability |  | :heavy_check_mark: |  | 
+Maintainability |  | :heavy_check_mark: |  | 
+Scalability | :heavy_check_mark: |  |  | 
+Execution |  | :heavy_check_mark: |  | 
+Originality | :heavy_check_mark: |  |  | 
+Overall Impression | :heavy_check_mark: |  |  |
+
+#UML Diagram
+![try](https://user-images.githubusercontent.com/113608620/206918789-af694d37-ac6d-4679-bd20-b1e4a3e95f5f.png)
+
+#Video Presentation
+The video presentation is presented in the link provided: https://youtu.be/rp4tOk5Ag8w
